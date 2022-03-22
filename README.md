@@ -6,8 +6,7 @@ Jeg har laget Rest-API ved bruk av Spring Boot med ulike dependencies, java og d
 Databasen er via Heroku Postgres. Hvordan kommunikasjonen skjer med databasen er gjennom CRUD (Create, Read, Update, Delete). 
 
 # Heroku:
-
-Jeg har publisert APIet slik at det er tilgjengelig via HTTP gjennom heroku.
+APIet ble først kjørt via localhost, men jeg har publisert APIet slik at det er tilgjengelig via HTTP gjennom heroku.
 
 # Postman Collection:
 
