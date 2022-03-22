@@ -82,7 +82,7 @@ public class CustomerController {
     }
     
     @DeleteMapping("/delete-customer/{id}")
-    public Map<String, Boolean> deleteEmployee(@PathVariable(value = "id") Integer customerId)
+    public Map<String, Boolean> deleteCustomer(@PathVariable(value = "id") Integer customerId)
     {
      CustomerEntity customer = customerRepository.findById(customerId).get();
 
